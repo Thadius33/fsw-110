@@ -1,1 +1,0 @@
-var H1tag = document.getElementById('largeFont1').innerHTML = 'I have added text to the h1 using javascript'
