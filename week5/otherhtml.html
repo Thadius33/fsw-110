@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="otherhtml.css">
+    </head>
+    <body>
+        
+        <form>
+            First name:<input type="text" id="fname" name="fname"><br>
+            Last name:<input type="text"id="lname" name="lname"><br>
+            Age: <input type="number" id="age" name="Age"><br>
+            Male: <input type="radio" id="gen1" name="gender" value="Female">
+            Female:<input type="radio" id="gen2" name="gender" value="Male"><br>
+            Country: <select name="countries" id="countries">
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Mexico">Mexico</option>
+            </select><br>
+            Which of these countries would you like to visit: <br> 
+            <label for="ml">Cuba</label>
+            <input type="checkbox" id="choice1" name="choice" value="Cuba"><br> 
+            <label for="Like">China</label>
+            <input type="checkbox" id="choice2" name="choice" value="China"><br> 
+            <label for="nl">Russia</label>
+            <input type="checkbox" id="choice3" name="choice" value="Russia"><br>
+            <button id="btn" onclick="sub()">Submit</button>
+          </form>
+          <script src="otherhtml.js"></script>
+    </body>
+</html>
