@@ -1,0 +1,98 @@
+html{
+    height: 100vh;
+    min-width: 600px;
+    background-image: linear-gradient(130deg, #ffffff, #187a26);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+h1{
+    color: rebeccapurple;
+    text-align: center;
+
+}
+
+.container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main{
+    padding: 20px;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+
+#input1{
+    height: 30px;
+    outline: 0;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #595959;
+    flex-grow: 1;
+}
+
+#input2{
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #595959;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+button{
+    font-size: 1.5rem;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: #595959;
+}
+
+button:hover{
+    color: lightgreen;
+}
+
+i{
+    pointer-events: none;
+}
+
+.todo-item{
+    flex-grow: 1;
+}
+
+.todolist{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px, 25px;
+    height: 100%;
+}
+
+ul{
+    padding-left: 0px;
+    list-style: none;    
+}
+
+li{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 0;
+    font-size: 1rem;
+    color: #595959;
+}
